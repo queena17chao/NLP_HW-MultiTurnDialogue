@@ -1,0 +1,37 @@
+{
+  "train.jsonl": {
+    "records": 200,
+    "assistant_examples": 504,
+    "rounds": {
+      "2": 96,
+      "3": 104
+    },
+    "sha256": "219b84ab4e4b23396f6760512b07bbc2a1d9997e39860e3d66cef6f2d11dbbc8"
+  },
+  "train_v2.jsonl": {
+    "records": 500,
+    "assistant_examples": 1224,
+    "rounds": {
+      "2": 276,
+      "3": 224
+    },
+    "sha256": "6c095fd1077884733935690861a5917a0497b73b5e875726b03337a38b3ea59e"
+  },
+  "eval.jsonl": {
+    "records": 20,
+    "assistant_examples": 42,
+    "rounds": {
+      "2": 18,
+      "3": 2
+    },
+    "sha256": "9069959d848b444827fe23d64091b4e3846f1953d293c4336c57e25d6ac9b8fd"
+  },
+  "test_scenarios.jsonl": {
+    "records": 10,
+    "assistant_examples": 0,
+    "rounds": {
+      "0": 10
+    },
+    "sha256": "57915841d73d534f3a9373d354c8905a05cff2c542dc123e7da44a7088e2f6e5"
+  }
+}

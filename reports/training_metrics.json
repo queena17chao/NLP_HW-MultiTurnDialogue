@@ -1,0 +1,84 @@
+{
+  "qlora": {
+    "global_step": 378,
+    "epochs_completed": 3,
+    "best_step": 126,
+    "best_eval_loss": 2.1561264991760254,
+    "eval_history": [
+      {
+        "epoch": 1,
+        "eval_entropy": 2.097170026529403,
+        "eval_loss": 2.1561264991760254,
+        "eval_mean_token_accuracy": 0.541890656664258,
+        "eval_num_tokens": 72527,
+        "eval_runtime": 2.7501,
+        "eval_samples_per_second": 15.272,
+        "eval_steps_per_second": 15.272,
+        "step": 126
+      },
+      {
+        "epoch": 2,
+        "eval_entropy": 1.6854514678319295,
+        "eval_loss": 2.180680513381958,
+        "eval_mean_token_accuracy": 0.5439030691271737,
+        "eval_num_tokens": 145054,
+        "eval_runtime": 3.3157,
+        "eval_samples_per_second": 12.667,
+        "eval_steps_per_second": 12.667,
+        "step": 252
+      },
+      {
+        "epoch": 3,
+        "eval_entropy": 1.281230199904669,
+        "eval_loss": 2.52669095993042,
+        "eval_mean_token_accuracy": 0.5393961902175631,
+        "eval_num_tokens": 217581,
+        "eval_runtime": 2.4942,
+        "eval_samples_per_second": 16.839,
+        "eval_steps_per_second": 16.839,
+        "step": 378
+      }
+    ]
+  },
+  "qlora_v2": {
+    "global_step": 918,
+    "epochs_completed": 3,
+    "best_step": 306,
+    "best_eval_loss": 2.1132919788360596,
+    "eval_history": [
+      {
+        "epoch": 1,
+        "eval_entropy": 2.0706672895522344,
+        "eval_loss": 2.1132919788360596,
+        "eval_mean_token_accuracy": 0.5415502148015159,
+        "eval_num_tokens": 153840,
+        "eval_runtime": 2.458,
+        "eval_samples_per_second": 17.087,
+        "eval_steps_per_second": 17.087,
+        "step": 306
+      },
+      {
+        "epoch": 2,
+        "eval_entropy": 1.6337015117917741,
+        "eval_loss": 2.189831256866455,
+        "eval_mean_token_accuracy": 0.545282359634127,
+        "eval_num_tokens": 307680,
+        "eval_runtime": 2.8558,
+        "eval_samples_per_second": 14.707,
+        "eval_steps_per_second": 14.707,
+        "step": 612
+      },
+      {
+        "epoch": 3,
+        "eval_entropy": 1.2631062624000369,
+        "eval_loss": 2.4824116230010986,
+        "eval_mean_token_accuracy": 0.5432887921730677,
+        "eval_num_tokens": 461520,
+        "eval_runtime": 2.7591,
+        "eval_samples_per_second": 15.222,
+        "eval_steps_per_second": 15.222,
+        "step": 918
+      }
+    ]
+  }
+}
