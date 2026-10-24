@@ -1,0 +1,11 @@
+# Install a compatible CUDA-enabled PyTorch build first; see README.
+transformers==5.20.2
+trl==1.16.0
+peft==0.21.2
+bitsandbytes==0.50.2
+datasets==5.1.0
+accelerate==1.15.0
+huggingface-hub==2.3.0
+safetensors==0.8.0
+tokenizers==0.23.3
+opencc-python-reimplemented==0.1.7
